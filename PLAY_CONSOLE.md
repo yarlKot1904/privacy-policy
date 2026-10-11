@@ -47,4 +47,3 @@ Google's and Yandex's guidance must be checked against the actual released binar
 ## Hosting
 
 Static HTML; no JavaScript, cookies, forms, third-party fonts, or build dependencies. Publish main at /(root) through GitHub Pages. Root RU/EN pages are an app index, not a universal policy to paste for every app. .nojekyll keeps publication buildless.
-
