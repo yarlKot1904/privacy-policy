@@ -1,6 +1,6 @@
 # Privacy policies and Play Console
 
-Updated 2026-10-11. Contact: mdadev@yandex.ru.
+Updated 2026-11-08. Site contact: mdadev@yandex.ru. Use the privacy contact listed on each app's policy for data requests.
 
 ## URLs
 
@@ -12,6 +12,7 @@ Updated 2026-10-11. Contact: mdadev@yandex.ru.
 | Resetly | https://yarlkot1904.github.io/privacy-policy/resetly/ | https://yarlkot1904.github.io/privacy-policy/resetly/en/ | Linked or bundled in app settings |
 | Slimevar | https://yarlkot1904.github.io/privacy-policy/slimevar/ | https://yarlkot1904.github.io/privacy-policy/slimevar/en/ | Linked or bundled in app settings |
 | Dices | https://yarlkot1904.github.io/privacy-policy/dices/ | https://yarlkot1904.github.io/privacy-policy/dices/en/ | Source code not supplied; add this URL inside the app before submission |
+| Cards: Durak and Thousand | https://yarlkot1904.github.io/privacy-policy/cards/ | https://yarlkot1904.github.io/privacy-policy/cards/en/ | Bundled RU/EN policy reported in the store kit |
 
 ## Data safety preparation
 
@@ -25,6 +26,7 @@ App-local processing is not off-device collection in Google's Data safety defini
 | Resetly | Sensitive habit/intimate-life journal, check-ins, relapse history, motivation, progress, reminders | Yandex advertising where configured; sensitive journal content stays local; personalization and SDK location tracking disabled |
 | Slimevar | Game save, settings, local diagnostics (500 events, 64 run-duration entries), diagnostic export | Current game has no advertising SDK, external analytics, or INTERNET permission; external policy uses a browser |
 | Dices / Кубики | Dice parameters and results; any locally retained preferences/history | Yandex advertising, according to the owner's description; no source/binary audit performed |
+| Cards: Durak and Thousand | Saved matches, settings and statistics | Yandex advertising where enabled; Android AD_ID permission removed and SDK location tracking disabled according to the store kit |
 
 Google's and Yandex's guidance must be checked against the actual released binary and every active Play build/region. Current source does not establish what every previously released build transmits. Do not mark SDK collection optional solely because personalized ads can be declined: Noizy still requests advertising for both choices. Do not declare a global third-party deletion mechanism as implemented merely because an email is listed; verify the developer/provider process before answering that field. No numeric provider retention period is asserted here because it is controlled by Yandex.
 
@@ -36,6 +38,8 @@ Google's and Yandex's guidance must be checked against the actual released binar
 4. Rebuild apps after the source changes; already-installed APK/AAB files do not receive new embedded policies automatically. This task publishes the website and changes source; it does not upload app releases to stores.
 5. Slimevar currently has no production advertising SDK. Update its policy and Data safety before shipping real Yandex advertising.
 6. Dices source was not supplied. Its policy is based on the owner's description; add the policy inside the app and verify the actual SDK/consent configuration before submission.
+
+The Cards store kit lists ИП Бушмакин Марк Сергеевич as publisher and npmark101@gmail.com as the privacy contact. The public policies use this contact. The source projects and release binaries were not supplied.
 
 ## Official requirements
 
