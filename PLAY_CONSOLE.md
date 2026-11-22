@@ -1,6 +1,6 @@
 # Privacy policies and Play Console
 
-Updated 2026-11-08. Site contact: mdadev@yandex.ru. Use the privacy contact listed on each app's policy for data requests.
+Updated 2026-11-22. Site contact: mdadev@yandex.ru. Use the privacy contact listed on each app's policy for data requests.
 
 ## URLs
 
@@ -14,6 +14,7 @@ Updated 2026-11-08. Site contact: mdadev@yandex.ru. Use the privacy contact list
 | Dices | https://yarlkot1904.github.io/privacy-policy/dices/ | https://yarlkot1904.github.io/privacy-policy/dices/en/ | Source code not supplied; add this URL inside the app before submission |
 | Cards: Durak and Thousand | https://yarlkot1904.github.io/privacy-policy/cards/ | https://yarlkot1904.github.io/privacy-policy/cards/en/ | Bundled RU/EN policy reported in the store kit |
 | Punktik: Parcel Pickup Sim | https://yarlkot1904.github.io/privacy-policy/punktik/ | https://yarlkot1904.github.io/privacy-policy/punktik/en/ | Source not supplied; verify an in-app policy link or text before submission |
+| Days Until Discharge | https://yarlkot1904.github.io/privacy-policy/days-home/ | https://yarlkot1904.github.io/privacy-policy/days-home/en/ | Russian policy bundled under Settings → About, according to the store kit |
 
 ## Data safety preparation
 
@@ -29,6 +30,7 @@ App-local processing is not off-device collection in Google's Data safety defini
 | Dices / Кубики | Dice parameters and results; any locally retained preferences/history | Yandex advertising, according to the owner's description; no source/binary audit performed |
 | Cards: Durak and Thousand | Saved matches, settings and statistics | Yandex advertising where enabled; Android AD_ID permission removed and SDK location tracking disabled according to the store kit |
 | Punktik: Parcel Pickup Sim | Local game progress and settings; no accounts, cloud sync, or separate developer analytics (confirmed by owner) | Yandex advertising; verify exact permissions and SDK settings against the release binary |
+| Days Until Discharge | Service dates, country and term, personal events, settings and an optional photo | Yandex Mobile Ads in both Android store builds (AD_ID declared, SDK location access off), optional card sharing through the system share menu, and Android-managed backup or device transfer |
 
 Google's and Yandex's guidance must be checked against the actual released binary and every active Play build/region. Current source does not establish what every previously released build transmits. Do not mark SDK collection optional solely because personalized ads can be declined: Noizy still requests advertising for both choices. Do not declare a global third-party deletion mechanism as implemented merely because an email is listed; verify the developer/provider process before answering that field. No numeric provider retention period is asserted here because it is controlled by Yandex.
 
@@ -41,7 +43,7 @@ Google's and Yandex's guidance must be checked against the actual released binar
 5. Slimevar currently has no production advertising SDK. Update its policy and Data safety before shipping real Yandex advertising.
 6. Dices source was not supplied. Its policy is based on the owner's description; add the policy inside the app and verify the actual SDK/consent configuration before submission.
 
-The Cards and Punktik store kits list ИП Бушмакин Марк Сергеевич as publisher and npmark101@gmail.com as the privacy contact. The public policies use this contact. The source projects and release binaries were not supplied.
+The Cards, Punktik and Days Until Discharge store kits list ИП Бушмакин Марк Сергеевич as publisher and npmark101@gmail.com as the privacy contact. The public policies use this contact. The source projects and release binaries were not supplied.
 
 ## Official requirements
 
